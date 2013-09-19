@@ -23,8 +23,9 @@ alias cls='clear'
 alias lah='ll -ah'
 alias grep='nocorrect grep '
 alias cp='nocorrect cp '
-alias mv='nocorrect mv'
-alias mkdir='nocorrect mkdir'
+alias mv='nocorrect mv '
+alias mkdir='nocorrect mkdir '
+alias which='nocorrect which '
 
 psa() {
 	ps aux | grep $1 | grep -v grep
